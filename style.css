@@ -1,0 +1,84 @@
+.texto-centro-izquierda {
+    text-align: center;
+    margin-left: 50px;
+}
+
+.imagen-esquina {
+    position: absolute;
+    top: 0;
+    left: 1166;
+    width: 20%;
+    max-width: 200px;
+    height: auto;
+}
+
+.texto-derecha {
+    text-align: right;
+    margin-right: 1150;
+}
+
+.texto-centro-izquierda {
+    text-align: center;
+    margin-left: 50px;
+}
+
+.esquina-abajo {
+    position: absolute;
+    bottom: 0;
+    left: 1336px;
+    width: 20%;
+    max-width: 20px;
+    height: auto;
+    background-color: rgb(113, 222, 230);
+
+}
+
+.body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 10s ease infinite;
+	        animation: gradient 10s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.recuadro {
+    background-color: rgb(255, 255, 255);
+    width: 60px;
+    border: 2px solid #000;
+    /* Ancho, estilo y color del borde */
+    padding: 10px;
+    /* Espacio dentro del recuadro */
+}
+
+/* .button-secondary {
+    background: rgb(66, 184, 221);
+    this is a light blue */
+/* } */
+
+.centro {
+    text-align: center;
+}
