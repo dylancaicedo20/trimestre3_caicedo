@@ -68,7 +68,8 @@
   
   .button-secondary {
       background-color : lightblue;
-      
+      margin: 4px;
+      padding: 5px;
   }
   
   .centro {
